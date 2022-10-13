@@ -1,0 +1,516 @@
+date:                Thu Oct 13 11:54:04 BST 2022
+hostname:            nid004292
+system:              Linux nid004292 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+user:                bcamino
+input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE0_doss.d3
+output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE0_doss.out
+executable script:   /work/e05/e05/bcamino/runCRYSTAL/Pprop_slurm
+executable:          Pproperties
+Command:             srun --hint=nomultithread --distribution=block:block Pproperties
+Slurm JobID:         
+temporary directory: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE0_doss_      
+input data /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE0_doss.d3
+NEWK
+12 24
+1 0
+DOSS
+2 500 1 50 1 12 0
+-1 1
+-1 2
+END
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE0_optgeom.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE0_doss_/fort.20
+File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE0_optgeom.OPTINFO, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE0_doss_/OPTINFO.DAT
+          47 PROCESSORS WORKING
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.2 - March 1st, 2018 STFC/Archer2 build    *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 13 10 2022 TIME 11:54:05.1
+
+ *******************************************************************************
+ GaP                                                                             
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(PERDEW-BURKE-ERNZERHOF)[PERDEW-BURKE-ERNZERHOF]
+
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    25.0000
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+         0.00000    2.73160    2.73160
+         2.73160    0.00000    2.73160
+         2.73160    2.73160    0.00000
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+    3.86306    3.86306    3.86306     60.0000   60.0000   60.0000      40.76431
+ *******************************************************************************
+ N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -8
+ NUMBER OF SHELLS            25 COULOMB PENETRATION TOL      (T2) 10**   -8
+ NUMBER OF AO                63 EXCHANGE OVERLAP TOL         (T3) 10**   -8
+ N. OF ELECTRONS PER CELL    46 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -8
+ CORE ELECTRONS PER CELL     38 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -16
+ N. OF SYMMETRY OPERATORS    24 POLE ORDER IN MONO ZONE                   4
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1   31 GA   15     0.000     0.000     0.000   2.831E-01      30.592
+    2   15 P    10     1.366    -1.366    -1.366   5.061E-01      15.408
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -2.2659469816462E+03  CONVERGENCE ON ENER        9.823E-11
+ KIN. ENERGY   2.2634749840445E+03  VIR. COEFF.           1.01606909E+00
+ N. OF SCF CYCLES                3  FERMI ENERGY              -0.202E+00
+ WEIGHT OF F(I) IN F(I+1)      80
+ SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       20
+ NUMBER OF K POINTS IN THE IBZ  47  CELL VOLUME (A.U.)        268.800043
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.25731 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.79 TCPU        0.63
+
+ MATRIX SIZE: P(G)  122353, F(G)   21058, P(G) IRR    7139, F(G) IRR    3575
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 285
+
+
+ CAPPA:IS1 10;IS2 10;IS3 10; K PTS MONK NET  47; SYMMOPS:K SPACE  48;G SPACE  24
+
+
+ CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
+
+ *******************************************************************************
+ RESTART WITH NEW K POINTS NET
+ *******************************************************************************
+ POINTS IN THE IBZ                  72 POINTS(GILAT NET)               413
+ SHRINK FACTORS(MONK.)        12 12 12 SHRINK FACTOR(GILAT)             24
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS = 12)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-C(  2  0  0)   4-C(  3  0  0)
+   5-C(  4  0  0)   6-C(  5  0  0)   7-R(  6  0  0)   8-C(  1  1  0)
+   9-C(  2  1  0)  10-C(  3  1  0)  11-C(  4  1  0)  12-C(  5  1  0)
+  13-C(  6  1  0)  14-C(  7  1  0)  15-C(  8  1  0)  16-C(  9  1  0)
+  17-C( 10  1  0)  18-C( 11  1  0)  19-C(  2  2  0)  20-C(  3  2  0)
+  21-C(  4  2  0)  22-C(  5  2  0)  23-C(  6  2  0)  24-C(  7  2  0)
+  25-C(  8  2  0)  26-C(  9  2  0)  27-C( 10  2  0)  28-C(  3  3  0)
+  29-C(  4  3  0)  30-C(  5  3  0)  31-C(  6  3  0)  32-C(  7  3  0)
+  33-C(  8  3  0)  34-C(  9  3  0)  35-C(  4  4  0)  36-C(  5  4  0)
+  37-C(  6  4  0)  38-C(  7  4  0)  39-C(  8  4  0)  40-C(  5  5  0)
+  41-C(  6  5  0)  42-C(  7  5  0)  43-R(  6  6  0)  44-C(  3  2  1)
+  45-C(  4  2  1)  46-C(  5  2  1)  47-C(  6  2  1)  48-C(  7  2  1)
+  49-C(  4  3  1)  50-C(  5  3  1)  51-C(  6  3  1)  52-C(  7  3  1)
+  53-C(  8  3  1)  54-C(  9  3  1)  55-C( 10  3  1)  56-C(  5  4  1)
+  57-C(  6  4  1)  58-C(  7  4  1)  59-C(  8  4  1)  60-C(  9  4  1)
+  61-C(  6  5  1)  62-C(  7  5  1)  63-C(  8  5  1)  64-C(  7  6  1)
+  65-C(  6  4  2)  66-C(  7  4  2)  67-C(  8  4  2)  68-C(  7  5  2)
+  69-C(  8  5  2)  70-C(  9  5  2)  71-C(  8  6  2)  72-C(  9  6  3)
+
+ FERMI ENERGY AND DENSITY MATRIX CALCULATION ON COMPUTED EIGENVECTORS
+ DENSITY MATRIX AT SCF CYCLE (  3+1)
+
+ INSULATING STATE
+ TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -2.0222568E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -8.5254290E-02 AU
+ INDIRECT ENERGY BAND GAP:   3.1830 eV
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -4.9238903E-02 AU
+
+ CORE DENSITY MATRIX CALCULATION
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.87 TCPU        0.70
+ ###############################################################################
+
+ TOTAL AND PROJECTED DENSITY OF STATES - FOURIER LEGENDRE METHOD
+ FROM BAND    1 TO BAND   50 ENERGY RANGE -0.37287E+03  0.28787E+01
+
+ ###############################################################################
+
+ NUMBER OF LEGENDRE POLYNOMIALS              12
+ NUMBER OF SYMMETRIZED PWS FOR EXPANSION     72
+ NUMBER OF K POINTS OF SECONDARY NET        413
+ NUMBER OF PROJECTIONS                        2
+ NUMBER OF ENERGY POINTS                    498
+
+ *** PROJECTION   1 ATOMIC ORBITALS     1   2   3   4   5   6   7   8   9  10
+                                       11  12  13  14  15  16  17  18  19  20
+                                       21  22  23  24  25  26  27  28  29  30
+                                       31  32  33  34  35  36  37  38  39  40
+                                       41
+
+ *** PROJECTION   2 ATOMIC ORBITALS    42  43  44  45  46  47  48  49  50  51
+                                       52  53  54  55  56  57  58  59  60  61
+                                       62  63
+
+ BAND     INTEGRATED DOSS PER PROJECTION AND TOTAL
+           1         2         T
+   1   2.00000  -0.00000   2.00000
+   2   0.00004   1.99996   2.00000
+   3   1.99985   0.00015   2.00000
+   4   1.99998   0.00002   2.00000
+   5   1.99998   0.00002   2.00000
+   6   1.99999   0.00001   2.00000
+   7   0.00143   1.99857   2.00000
+   8   2.00062  -0.00062   2.00000
+   9   0.00078   1.99922   2.00000
+  10   0.00072   1.99928   2.00000
+  11   0.00067   1.99933   2.00000
+  12   2.00040  -0.00040   2.00000
+  13   2.00005  -0.00005   2.00000
+  14   1.99998   0.00002   2.00000
+  15   1.97369   0.02631   2.00000
+  16   1.99394   0.00606   2.00000
+  17   1.99400   0.00600   2.00000
+  18   1.99739   0.00261   2.00000
+  19   1.99935   0.00065   2.00000
+  20   0.45448   1.54552   2.00000
+  21   0.90299   1.09701   2.00000
+  22   0.66201   1.33799   2.00000
+  23   0.60959   1.39041   2.00000
+  24   1.32214   0.67786   2.00000
+  25   1.28865   0.71135   2.00000
+  26   1.34592   0.65408   2.00000
+  27   1.35641   0.64359   2.00000
+  28   1.05083   0.94917   2.00000
+  29   1.17332   0.82668   2.00000
+  30   0.79968   1.20032   2.00000
+  31   0.87164   1.12836   2.00000
+  32   0.77212   1.22788   2.00000
+  33   0.78017   1.21983   2.00000
+  34   0.96444   1.03556   2.00000
+  35   0.84477   1.15523   2.00000
+  36   0.82203   1.17797   2.00000
+  37   0.96147   1.03853   2.00000
+  38   0.98347   1.01653   2.00000
+  39   1.03779   0.96221   2.00000
+  40   0.89073   1.10927   2.00000
+  41   1.13436   0.86564   2.00000
+  42   1.20526   0.79474   2.00000
+  43   1.14497   0.85503   2.00000
+  44   0.83141   1.16859   2.00000
+  45   1.80207   0.19793   2.00000
+  46   1.97828   0.02172   2.00000
+  47   1.98566   0.01434   2.00000
+  48   2.02880  -0.02880   2.00000
+  49   2.03298  -0.03298   2.00000
+  50   2.03792  -0.03792   2.00000
+
+ *** INTEGRATED DENSITIES IN THE ENERGY INTERVAL PER PROJECTION AND TOTAL
+       1         2         T
+   64.03923   35.96077  100.00000
+
+ *** ENERGY  PROJECTED DENSITY OF STATES - FULL SCALE =    30.34554 AU
+
+-370.60682  21                                                                                                                      
+-366.84184  2                                                                                                                       
+-363.07687  2                                                                                                                       
+-359.31189  2                                                                                                                       
+-355.54692  2                                                                                                                       
+-351.78194  2                                                                                                                       
+-348.01697  2                                                                                                                       
+-344.25199  2                                                                                                                       
+-340.48702  2                                                                                                                       
+-336.72204  2                                                                                                                       
+-332.95707  2                                                                                                                       
+-329.19209  2                                                                                                                       
+-325.42711  2                                                                                                                       
+-321.66214  2                                                                                                                       
+-317.89716  2                                                                                                                       
+-314.13219  2                                                                                                                       
+-310.36721  2                                                                                                                       
+-306.60224  2                                                                                                                       
+-302.83726  2                                                                                                                       
+-299.07229  2                                                                                                                       
+-295.30731  2                                                                                                                       
+-291.54234  2                                                                                                                       
+-287.77736  2                                                                                                                       
+-284.01239  2                                                                                                                       
+-280.24741  2                                                                                                                       
+-276.48244  2                                                                                                                       
+-272.71746  2                                                                                                                       
+-268.95249  2                                                                                                                       
+-265.18751  2                                                                                                                       
+-261.42254  2                                                                                                                       
+-257.65756  2                                                                                                                       
+-253.89259  2                                                                                                                       
+-250.12761  2                                                                                                                       
+-246.36264  2                                                                                                                       
+-242.59766  2                                                                                                                       
+-238.83268  2                                                                                                                       
+-235.06771  2                                                                                                                       
+-231.30273  2                                                                                                                       
+-227.53776  2                                                                                                                       
+-223.77278  2                                                                                                                       
+-220.00781  2                                                                                                                       
+-216.24283  2                                                                                                                       
+-212.47786  2                                                                                                                       
+-208.71288  2                                                                                                                       
+-204.94791  2                                                                                                                       
+-201.18293  2                                                                                                                       
+-197.41796  2                                                                                                                       
+-193.65298  2                                                                                                                       
+-189.88801  2                                                                                                                       
+-186.12303  2                                                                                                                       
+-182.35806  2                                                                                                                       
+-178.59308  2                                                                                                                       
+-174.82811  2                                                                                                                       
+-171.06313  2                                                                                                                       
+-167.29816  2                                                                                                                       
+-163.53318  2                                                                                                                       
+-159.76820  2                                                                                                                       
+-156.00323  2                                                                                                                       
+-152.23825  2                                                                                                                       
+-148.47328  2                                                                                                                       
+-144.70830  2                                                                                                                       
+-140.94333  2                                                                                                                       
+-137.17835  2                                                                                                                       
+-133.41338  2                                                                                                                       
+-129.64840  2                                                                                                                       
+-125.88343  2                                                                                                                       
+-122.11845  2                                                                                                                       
+-118.35348  2                                                                                                                       
+-114.58850  2                                                                                                                       
+-110.82353  2                                                                                                                       
+-107.05855  2                                                                                                                       
+-103.29358  2                                                                                                                       
+ -99.52860  2                                                                                                                       
+ -95.76363  2                                                                                                                       
+ -91.99865  2                                                                                                                       
+ -88.23368  2                                                                                                                       
+ -84.46870  2                                                                                                                       
+ -80.70372  2                                                                                                                       
+ -76.93875  1 2                                                                                                                     
+ -73.17377  2                                                                                                                       
+ -69.40880  2                                                                                                                       
+ -65.64382  2                                                                                                                       
+ -61.87885  2                                                                                                                       
+ -58.11387  2                                                                                                                       
+ -54.34890  2                                                                                                                       
+ -50.58392  2                                                                                                                       
+ -46.81895  2 1                                                                                                                     
+ -43.05397  2                                                                                                                       
+ -39.28900  2           1                                                                                                           
+ -35.52402  2                                                                                                                       
+ -31.75905  2                                                                                                                       
+ -27.99407  2                                                                                                                       
+ -24.22910  2                                                                                                                       
+ -20.46412  2                                                                                                                       
+ -16.69915  2                                                                                                                       
+ -12.93417  2                                                                                                                       
+  -9.16920  2                                                                                                                       
+  -5.40422  |       1     2                                                                                                         
+  -1.63924  |                                   2                                                                                  1
+
+ *** ENERGY      TOTAL DENSITY OF STATES - FULL SCALE =    39.68760 AU
+
+-370.60682  T                                                                                                                       
+-366.84184  T                                                                                                                       
+-363.07687  T                                                                                                                       
+-359.31189  T                                                                                                                       
+-355.54692  T                                                                                                                       
+-351.78194  T                                                                                                                       
+-348.01697  T                                                                                                                       
+-344.25199  T                                                                                                                       
+-340.48702  T                                                                                                                       
+-336.72204  T                                                                                                                       
+-332.95707  T                                                                                                                       
+-329.19209  T                                                                                                                       
+-325.42711  T                                                                                                                       
+-321.66214  T                                                                                                                       
+-317.89716  T                                                                                                                       
+-314.13219  T                                                                                                                       
+-310.36721  T                                                                                                                       
+-306.60224  T                                                                                                                       
+-302.83726  T                                                                                                                       
+-299.07229  T                                                                                                                       
+-295.30731  T                                                                                                                       
+-291.54234  T                                                                                                                       
+-287.77736  T                                                                                                                       
+-284.01239  T                                                                                                                       
+-280.24741  T                                                                                                                       
+-276.48244  T                                                                                                                       
+-272.71746  T                                                                                                                       
+-268.95249  T                                                                                                                       
+-265.18751  T                                                                                                                       
+-261.42254  T                                                                                                                       
+-257.65756  T                                                                                                                       
+-253.89259  T                                                                                                                       
+-250.12761  T                                                                                                                       
+-246.36264  T                                                                                                                       
+-242.59766  T                                                                                                                       
+-238.83268  T                                                                                                                       
+-235.06771  T                                                                                                                       
+-231.30273  T                                                                                                                       
+-227.53776  T                                                                                                                       
+-223.77278  T                                                                                                                       
+-220.00781  T                                                                                                                       
+-216.24283  T                                                                                                                       
+-212.47786  T                                                                                                                       
+-208.71288  T                                                                                                                       
+-204.94791  T                                                                                                                       
+-201.18293  T                                                                                                                       
+-197.41796  T                                                                                                                       
+-193.65298  T                                                                                                                       
+-189.88801  T                                                                                                                       
+-186.12303  T                                                                                                                       
+-182.35806  T                                                                                                                       
+-178.59308  T                                                                                                                       
+-174.82811  T                                                                                                                       
+-171.06313  T                                                                                                                       
+-167.29816  T                                                                                                                       
+-163.53318  T                                                                                                                       
+-159.76820  T                                                                                                                       
+-156.00323  T                                                                                                                       
+-152.23825  T                                                                                                                       
+-148.47328  T                                                                                                                       
+-144.70830  T                                                                                                                       
+-140.94333  T                                                                                                                       
+-137.17835  T                                                                                                                       
+-133.41338  T                                                                                                                       
+-129.64840  T                                                                                                                       
+-125.88343  T                                                                                                                       
+-122.11845  T                                                                                                                       
+-118.35348  T                                                                                                                       
+-114.58850  T                                                                                                                       
+-110.82353  T                                                                                                                       
+-107.05855  T                                                                                                                       
+-103.29358  T                                                                                                                       
+ -99.52860  T                                                                                                                       
+ -95.76363  T                                                                                                                       
+ -91.99865  T                                                                                                                       
+ -88.23368  T                                                                                                                       
+ -84.46870  T                                                                                                                       
+ -80.70372  T                                                                                                                       
+ -76.93875  |T                                                                                                                      
+ -73.17377  T                                                                                                                       
+ -69.40880  T                                                                                                                       
+ -65.64382  T                                                                                                                       
+ -61.87885  T                                                                                                                       
+ -58.11387  T                                                                                                                       
+ -54.34890  T                                                                                                                       
+ -50.58392  T                                                                                                                       
+ -46.81895  |T                                                                                                                      
+ -43.05397  T                                                                                                                       
+ -39.28900  |        T                                                                                                              
+ -35.52402  T                                                                                                                       
+ -31.75905  T                                                                                                                       
+ -27.99407  T                                                                                                                       
+ -24.22910  T                                                                                                                       
+ -20.46412  T                                                                                                                       
+ -16.69915  T                                                                                                                       
+ -12.93417  T                                                                                                                       
+  -9.16920  T                                                                                                                       
+  -5.40422  |                T                                                                                                      
+  -1.63924  |                                                                                                                      T
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      1   41    0    0    0    0
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      2   22    0    0    0    0
+
+  502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0DOSS      3   63    0    0    0    0
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        0.90 TCPU        0.74
+ ENDPROP   
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.90 TCPU        0.74
+ EEEEEEEEEE TERMINATION  DATE 13 10 2022 TIME 11:54:05.3
+NODE    0 CPU TIME =         0.735
+    TOTAL CPU TIME =        24.943
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+end_date Thu Oct 13 11:54:05 BST 2022
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
+fort.25            GaP_PBE0_doss.f25 18657    Oct 13 11:54
+ 
+Disk usage:<du -m>
+1	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE0_doss_
+</du -m>
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736430598832 1809520702512  49% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736430598832 1809520702512  49% /mnt/lustre/a2fs-work2

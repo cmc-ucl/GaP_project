@@ -1,13 +1,12 @@
-date Wed 19 Oct 2022 16:27:03 CEST
+date Wed 19 Oct 2022 16:27:04 CEST
 master hostname surfer-172-29-38-121-hotspot.s-bit.nl
 system Darwin surfer-172-29-38-121-hotspot.s-bit.nl 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
 user brunocamino
-output data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.outp
+output data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.outp
 properties in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.d3
+input data in /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.d3
 temporary directory /Users/brunocamino/crystal/tmp
-wave function data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_optgeom.f9
-wave function formatted data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_optgeom.f98
+wave function data from /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_optgeom.f9 not found or empty
 NEWK
 12 24
 1 0
@@ -61,7 +60,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 19 10 2022 TIME 16:27:03.4
+ EEEEEEEEEE STARTING  DATE 19 10 2022 TIME 16:27:04.9
 
  *******************************************************************************
  GaP                                                                             
@@ -104,7 +103,7 @@ END
 
  GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
  NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.82158 BOHR
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.01 TCPU        0.01
 
  MATRIX SIZE: P(G)   39897, F(G)   20328, P(G) IRR    3494, F(G) IRR    3494
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS  99
@@ -151,7 +150,7 @@ END
  BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -8.9806536E-02 AU
 
  CORE DENSITY MATRIX CALCULATION
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.35 TCPU        0.17
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.13 TCPU        0.13
  ###############################################################################
 
  TOTAL AND PROJECTED DENSITY OF STATES - FOURIER LEGENDRE METHOD
@@ -444,11 +443,11 @@ END
 
   502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
  -%-0DOSS      3   63    0    0    0    0
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        0.62 TCPU        0.45
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        0.40 TCPU        0.40
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.62 TCPU        0.45
- EEEEEEEEEE TERMINATION  DATE 19 10 2022 TIME 16:27:04.0
-Wed 19 Oct 2022 16:27:04 CEST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.40 TCPU        0.40
+ EEEEEEEEEE TERMINATION  DATE 19 10 2022 TIME 16:27:05.3
+Wed 19 Oct 2022 16:27:05 CEST
 Contents of temporary directory:
 total 34464
 -rw-r--r--  1 brunocamino  admin   333560 19 Oct 16:27 BAND.DAT
@@ -465,7 +464,7 @@ total 34464
 -rw-r--r--  1 brunocamino  admin    10152 18 Oct 10:57 fort.12
 -rw-r--r--  1 brunocamino  admin   957552 19 Oct 16:27 fort.13
 -rw-r--r--  1 brunocamino  admin   174848 18 Oct 10:57 fort.20
--rw-r--r--  1 brunocamino  admin  4923602 19 Oct 16:27 fort.25
+-rw-r--r--  1 brunocamino  admin  5247652 19 Oct 16:27 fort.25
 -rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.28
 -rw-r--r--  1 brunocamino  admin        0 18 Oct 10:56 fort.29
 -rw-r--r--  1 brunocamino  admin   162632 19 Oct 16:27 fort.3
@@ -477,11 +476,11 @@ total 34464
 -rw-r--r--  1 brunocamino  admin   347360 19 Oct 16:27 fort.9
 -rw-r--r--  1 brunocamino  admin   167824 18 Oct 10:58 fort.95
 -rw-r--r--  1 brunocamino  admin   874575 19 Oct 16:27 fort.98
-file fort.9 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.f9
-file fort.98 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.f98
-file fort.13 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.f13
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.gui
-file fort.25 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.f25
-file BAND.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss_dat.BAND
-file DOSS.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss_dat.DOSS
-output of Crgra in file /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE_doss.outpg
+file fort.9 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.f9
+file fort.98 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.f98
+file fort.13 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.f13
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.gui
+file fort.25 saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/UCL/crystal/GaP_project/./data/primitive/GaP_PBE0_doss.outpg

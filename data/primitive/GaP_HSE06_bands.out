@@ -1,6 +1,6 @@
-date:                Thu Oct 13 11:51:45 BST 2022
-hostname:            nid004292
-system:              Linux nid004292 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+date:                Mon Oct 17 16:03:49 BST 2022
+hostname:            nid003840
+system:              Linux nid003840 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
 user:                bcamino
 input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_bands.d3
 output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_bands.out
@@ -29,8 +29,7 @@ BAND STRUCTURE CALCULATION
 5 2 5  4 0 4
 END
 File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_optgeom.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/fort.20
-File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_optgeom.OPTINFO, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/OPTINFO.DAT
-          47 PROCESSORS WORKING
+         128 PROCESSORS WORKING
 
          
  *******************************************************************************
@@ -75,7 +74,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 13 10 2022 TIME 11:51:46.4
+ EEEEEEEEEE STARTING  DATE 17 10 2022 TIME 16:03:52.4
 
  *******************************************************************************
  GaP                                                                             
@@ -97,7 +96,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 
  LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
        A          B          C         ALPHA      BETA     GAMMA        VOLUME
-    3.86609    3.86609    3.86609     60.0000   60.0000   60.0000      40.86015
+    3.86609    3.86609    3.86609     60.0000   60.0000   60.0000      40.86016
  *******************************************************************************
  N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -8
  NUMBER OF SHELLS            25 COULOMB PENETRATION TOL      (T2) 10**   -8
@@ -112,8 +111,8 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
     2   15 P    10     1.367    -1.367    -1.367   5.061E-01      15.407
  *******************************************************************************
  DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
- TOTAL ENERGY -2.2659455260788E+03  CONVERGENCE ON ENER        1.228E-11
- KIN. ENERGY   2.2634800218863E+03  VIR. COEFF.           1.01623140E+00
+ TOTAL ENERGY -2.2659455260871E+03  CONVERGENCE ON ENER       -1.273E-11
+ KIN. ENERGY   2.2634800201117E+03  VIR. COEFF.           1.01623140E+00
  N. OF SCF CYCLES                3  FERMI ENERGY              -0.191E+00
  WEIGHT OF F(I) IN F(I+1)      80
  SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       20
@@ -121,8 +120,8 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  *******************************************************************************
 
  GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
- NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.31781 BOHR
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.80 TCPU        0.32
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.31782 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        2.00 TCPU        1.67
 
  MATRIX SIZE: P(G)  122233, F(G)   20938, P(G) IRR    7134, F(G) IRR    3565
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 285
@@ -163,13 +162,13 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  DENSITY MATRIX AT SCF CYCLE (  3+1)
 
  INSULATING STATE
- TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.9114329E-01 AU
- BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -9.6768068E-02 AU
+ TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.9114332E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -9.6768075E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5681 eV
- BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -5.8969465E-02 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -5.8969585E-02 AU
 
  CORE DENSITY MATRIX CALCULATION
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.88 TCPU        0.40
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        2.11 TCPU        1.77
  WARNING **** F90MAIN3 **** BF SYMMETRY ADAPTED-INFO MODIFIED BY BAND-CALL NEWK
 
 
@@ -774,12 +773,12 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 
  CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        1.00 TCPU        0.51
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        2.28 TCPU        1.93
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        1.00 TCPU        0.51
- EEEEEEEEEE TERMINATION  DATE 13 10 2022 TIME 11:51:46.7
-NODE    0 CPU TIME =         0.507
-    TOTAL CPU TIME =        27.681
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        2.28 TCPU        1.93
+ EEEEEEEEEE TERMINATION  DATE 17 10 2022 TIME 16:03:52.9
+NODE    0 CPU TIME =         1.932
+    TOTAL CPU TIME =       191.404
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
@@ -827,15 +826,107 @@ Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
-end_date Thu Oct 13 11:51:46 BST 2022
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+end_date Mon Oct 17 16:03:53 BST 2022
  
 TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
-fort.25            GaP_HSE06_bands.f25305393   Oct 13 11:51
-BAND.DAT           GaP_HSE06_bands.BAND333560   Oct 13 11:51
+fort.25            GaP_HSE06_bands.f25305393   Oct 17 16:03
+BAND.DAT           GaP_HSE06_bands.BAND333560   Oct 17 16:03
  
 Disk usage:<du -m>
-1	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_
+2	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_
 </du -m>
 Filesystem                                          1K-blocks          Used     Available Use% Mounted on
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736530718008 1809420045204  49% /mnt/lustre/a2fs-work2
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736530718008 1809420045204  49% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765953237648 1780073558732  50% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765953237648 1780073558732  50% /mnt/lustre/a2fs-work2
+end_date Wed Oct 19 13:13:29 BST 2022
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
+binary wf (fort.9) is not written on this node
+ 
+Disk usage:<du -m>
+du: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_': No such file or directory
+</du -m>
+df: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_: No such file or directory
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1751010518180 1794965983300  50% /mnt/lustre/a2fs-work2

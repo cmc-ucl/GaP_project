@@ -1,6 +1,6 @@
-date:                Thu Oct 13 11:51:47 BST 2022
-hostname:            nid004292
-system:              Linux nid004292 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+date:                Mon Oct 17 16:03:53 BST 2022
+hostname:            nid003840
+system:              Linux nid003840 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
 user:                bcamino
 input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_doss.d3
 output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_doss.out
@@ -19,8 +19,7 @@ DOSS
 -1 2
 END
 File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_optgeom.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/fort.20
-File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE06_optgeom.OPTINFO, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/OPTINFO.DAT
-          47 PROCESSORS WORKING
+         128 PROCESSORS WORKING
 
          
  *******************************************************************************
@@ -65,7 +64,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 13 10 2022 TIME 11:51:48.3
+ EEEEEEEEEE STARTING  DATE 17 10 2022 TIME 16:03:56.2
 
  *******************************************************************************
  GaP                                                                             
@@ -87,7 +86,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 
  LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
        A          B          C         ALPHA      BETA     GAMMA        VOLUME
-    3.86609    3.86609    3.86609     60.0000   60.0000   60.0000      40.86015
+    3.86609    3.86609    3.86609     60.0000   60.0000   60.0000      40.86016
  *******************************************************************************
  N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -8
  NUMBER OF SHELLS            25 COULOMB PENETRATION TOL      (T2) 10**   -8
@@ -102,8 +101,8 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
     2   15 P    10     1.367    -1.367    -1.367   5.061E-01      15.407
  *******************************************************************************
  DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
- TOTAL ENERGY -2.2659455260788E+03  CONVERGENCE ON ENER        1.228E-11
- KIN. ENERGY   2.2634800218863E+03  VIR. COEFF.           1.01623140E+00
+ TOTAL ENERGY -2.2659455260871E+03  CONVERGENCE ON ENER       -1.273E-11
+ KIN. ENERGY   2.2634800201117E+03  VIR. COEFF.           1.01623140E+00
  N. OF SCF CYCLES                3  FERMI ENERGY              -0.191E+00
  WEIGHT OF F(I) IN F(I+1)      80
  SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       20
@@ -111,8 +110,8 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  *******************************************************************************
 
  GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
- NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.31781 BOHR
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.71 TCPU        0.33
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.31782 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        2.04 TCPU        1.13
 
  MATRIX SIZE: P(G)  122233, F(G)   20938, P(G) IRR    7134, F(G) IRR    3565
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 285
@@ -153,13 +152,13 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  DENSITY MATRIX AT SCF CYCLE (  3+1)
 
  INSULATING STATE
- TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.9114329E-01 AU
- BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -9.6768068E-02 AU
+ TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.9114332E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -9.6768075E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5681 eV
- BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -5.8969465E-02 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -5.8969585E-02 AU
 
  CORE DENSITY MATRIX CALCULATION
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.82 TCPU        0.43
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        2.15 TCPU        1.23
  ###############################################################################
 
  TOTAL AND PROJECTED DENSITY OF STATES - FOURIER LEGENDRE METHOD
@@ -226,7 +225,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
   39   1.04089   0.95911   2.00000
   40   0.88762   1.11238   2.00000
   41   1.13296   0.86704   2.00000
-  42   1.19284   0.80716   2.00000
+  42   1.19283   0.80717   2.00000
   43   1.16237   0.83763   2.00000
   44   0.84444   1.15556   2.00000
   45   1.79684   0.20316   2.00000
@@ -264,7 +263,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 -299.06307  2                                                                                                                       
 -295.29843  2                                                                                                                       
 -291.53380  2                                                                                                                       
--287.76916  2                                                                                                                       
+-287.76917  2                                                                                                                       
 -284.00453  2                                                                                                                       
 -280.23990  2                                                                                                                       
 -276.47526  2                                                                                                                       
@@ -317,7 +316,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  -99.53747  2                                                                                                                       
  -95.77283  2                                                                                                                       
  -92.00820  2                                                                                                                       
- -88.24356  2                                                                                                                       
+ -88.24357  2                                                                                                                       
  -84.47893  2                                                                                                                       
  -80.71430  2                                                                                                                       
  -76.94966  1 2                                                                                                                     
@@ -342,7 +341,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
   -5.42162  |       1     2                                                                                                         
   -1.65698  |                                   2                                                                                  1
 
- *** ENERGY      TOTAL DENSITY OF STATES - FULL SCALE =    39.67081 AU
+ *** ENERGY      TOTAL DENSITY OF STATES - FULL SCALE =    39.67080 AU
 
 -370.59111  T                                                                                                                       
 -366.82648  T                                                                                                                       
@@ -366,7 +365,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 -299.06307  T                                                                                                                       
 -295.29843  T                                                                                                                       
 -291.53380  T                                                                                                                       
--287.76916  T                                                                                                                       
+-287.76917  T                                                                                                                       
 -284.00453  T                                                                                                                       
 -280.23990  T                                                                                                                       
 -276.47526  T                                                                                                                       
@@ -419,7 +418,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  -99.53747  T                                                                                                                       
  -95.77283  T                                                                                                                       
  -92.00820  T                                                                                                                       
- -88.24356  T                                                                                                                       
+ -88.24357  T                                                                                                                       
  -84.47893  T                                                                                                                       
  -80.71430  T                                                                                                                       
  -76.94966  |T                                                                                                                      
@@ -442,7 +441,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
  -12.95089  T                                                                                                                       
   -9.18625  T                                                                                                                       
   -5.42162  |                T                                                                                                      
-  -1.65698  |                                                                                                                      T
+  -1.65698  |                                                                                                                     T 
 
   502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
  -%-0DOSS      1   41    0    0    0    0
@@ -452,12 +451,12 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_HSE
 
   502 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
  -%-0DOSS      3   63    0    0    0    0
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        0.86 TCPU        0.47
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DOSS        TELAPSE        2.19 TCPU        1.27
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.86 TCPU        0.47
- EEEEEEEEEE TERMINATION  DATE 13 10 2022 TIME 11:51:48.6
-NODE    0 CPU TIME =         0.468
-    TOTAL CPU TIME =        25.592
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        2.19 TCPU        1.27
+ EEEEEEEEEE TERMINATION  DATE 17 10 2022 TIME 16:03:56.5
+NODE    0 CPU TIME =         1.265
+    TOTAL CPU TIME =       174.192
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
@@ -505,14 +504,106 @@ Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
-end_date Thu Oct 13 11:51:48 BST 2022
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+end_date Mon Oct 17 16:03:56 BST 2022
  
 TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
-fort.25            GaP_HSE06_doss.f2518657    Oct 13 11:51
+fort.25            GaP_HSE06_doss.f2518657    Oct 17 16:03
  
 Disk usage:<du -m>
 1	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_
 </du -m>
 Filesystem                                          1K-blocks          Used     Available Use% Mounted on
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736530718008 1809420045204  49% /mnt/lustre/a2fs-work2
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736530718008 1809420045204  49% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765953465812 1780073780376  50% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765953465812 1780073780376  50% /mnt/lustre/a2fs-work2
+end_date Wed Oct 19 13:13:30 BST 2022
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
+binary wf (fort.9) is not written on this node
+ 
+Disk usage:<du -m>
+du: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_': No such file or directory
+</du -m>
+df: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_: No such file or directory
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1751010518180 1794965983300  50% /mnt/lustre/a2fs-work2

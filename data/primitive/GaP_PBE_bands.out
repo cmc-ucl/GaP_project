@@ -1,6 +1,6 @@
-date:                Thu Oct 13 11:52:06 BST 2022
-hostname:            nid004292
-system:              Linux nid004292 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
+date:                Mon Oct 17 16:05:48 BST 2022
+hostname:            nid003840
+system:              Linux nid003840 4.12.14-197.78_9.1.64-cray_shasta_c #1 SMP Wed Aug 25 14:56:40 UTC 2021 (4e2a900) x86_64 x86_64 x86_64 GNU/Linux
 user:                bcamino
 input:               /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE_bands.d3
 output:              /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE_bands.out
@@ -29,8 +29,7 @@ BAND STRUCTURE CALCULATION
 5 2 5  4 0 4
 END
 File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE_optgeom.f9, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/fort.20
-File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE_optgeom.OPTINFO, temporarily saved as /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/OPTINFO.DAT
-          47 PROCESSORS WORKING
+         128 PROCESSORS WORKING
 
          
  *******************************************************************************
@@ -75,7 +74,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 13 10 2022 TIME 11:52:07.6
+ EEEEEEEEEE STARTING  DATE 17 10 2022 TIME 16:05:51.1
 
  *******************************************************************************
  GaP                                                                             
@@ -87,13 +86,13 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
 
 
  DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
-         0.00000    2.75155    2.75155
-         2.75155    0.00000    2.75155
-         2.75155    2.75155    0.00000
+         0.00000    2.71061    2.71061
+         2.71061    0.00000    2.71061
+         2.71061    2.71061    0.00000
 
  LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
        A          B          C         ALPHA      BETA     GAMMA        VOLUME
-    3.89128    3.89128    3.89128     60.0000   60.0000   60.0000      41.66405
+    3.83339    3.83339    3.83339     60.0000   60.0000   60.0000      39.83206
  *******************************************************************************
  N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -8
  NUMBER OF SHELLS            25 COULOMB PENETRATION TOL      (T2) 10**   -8
@@ -104,23 +103,23 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
  *******************************************************************************
    ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
  *******************************************************************************
-    1   31 GA   15     0.000     0.000     0.000   2.831E-01      30.631
-    2   15 P    10     1.376    -1.376    -1.376   5.061E-01      15.369
+    1   31 GA   15     0.000     0.000     0.000   2.831E-01      30.641
+    2   15 P    10     1.355    -1.355    -1.355   5.061E-01      15.359
  *******************************************************************************
  DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
- TOTAL ENERGY -2.2658811221340E+03  CONVERGENCE ON ENER       -2.228E-11
- KIN. ENERGY   2.2629633903087E+03  VIR. COEFF.           1.02145813E+00
- N. OF SCF CYCLES                6  FERMI ENERGY              -0.176E+00
- WEIGHT OF F(I) IN F(I+1)      80
- SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       20
+ TOTAL ENERGY -2.2658803684015E+03  CONVERGENCE ON ENER        2.728E-11
+ KIN. ENERGY   2.2630718781884E+03  VIR. COEFF.           1.02148790E+00
+ N. OF SCF CYCLES               11  FERMI ENERGY              -0.171E+00
+ WEIGHT OF F(I) IN F(I+1)      85
+ SHRINK. FACT.(MONKH.)    10 10 10  SHRINKING FACTOR(GILAT NET)       10
  NUMBER OF K POINTS IN THE IBZ  47  CELL VOLUME (A.U.)        268.800043
  *******************************************************************************
 
  GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
- NO.OF VECTORS CREATED 6999 STARS  105 RMAX    77.82158 BOHR
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.83 TCPU        0.41
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    76.66382 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        2.04 TCPU        1.22
 
- MATRIX SIZE: P(G)   39897, F(G)   20328, P(G) IRR    3494, F(G) IRR    3494
+ MATRIX SIZE: P(G)   42209, F(G)   21514, P(G) IRR    3613, F(G) IRR    3613
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS  99
 
 
@@ -156,16 +155,16 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
   69-C(  8  5  2)  70-C(  9  5  2)  71-C(  8  6  2)  72-C(  9  6  3)
 
  FERMI ENERGY AND DENSITY MATRIX CALCULATION ON COMPUTED EIGENVECTORS
- DENSITY MATRIX AT SCF CYCLE (  6+1)
+ DENSITY MATRIX AT SCF CYCLE ( 11+1)
 
  INSULATING STATE
- TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.7613670E-01 AU
- BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -1.0433849E-01 AU
- INDIRECT ENERGY BAND GAP:   1.9537 eV
- BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -8.9806536E-02 AU
+ TOP OF VALENCE BANDS -    BAND     23; K    1; EIG -1.7114317E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K   43; EIG -1.0403054E-01 AU
+ INDIRECT ENERGY BAND GAP:   1.8262 eV
+ BOTTOM OF VIRTUAL BANDS - BAND     24; K    1; EIG -6.9981834E-02 AU
 
  CORE DENSITY MATRIX CALCULATION
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.89 TCPU        0.46
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        2.13 TCPU        1.30
  WARNING **** F90MAIN3 **** BF SYMMETRY ADAPTED-INFO MODIFIED BY BAND-CALL NEWK
 
 
@@ -180,57 +179,57 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
 
  LINE  1 ( 0.00 0.00 0.00: 0.50 0.00 0.50) IN TERMS OF PRIMITIVE LATTICE VECTORS
   76 POINTS - SHRINKING_FACTOR 600
- CARTESIAN COORD. ( 0.000 0.000 0.000):( 0.000 0.604 0.000) STEP  0.0081
+ CARTESIAN COORD. ( 0.000 0.000 0.000):( 0.000 0.613 0.000) STEP  0.0082
 
 
  LINE  2 ( 0.50 0.00 0.50: 0.50 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   31 POINTS - SHRINKING_FACTOR 248
- CARTESIAN COORD. ( 0.000 0.604 0.000):( 0.227 0.529 0.076) STEP  0.0081
+ CARTESIAN COORD. ( 0.000 0.613 0.000):( 0.230 0.537 0.077) STEP  0.0082
 
 
  LINE  3 ( 0.50 0.25 0.62: 0.25 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   33 POINTS - SHRINKING_FACTOR 264
- CARTESIAN COORD. ( 0.227 0.529 0.076):( 0.378 0.378-0.076) STEP  0.0079
+ CARTESIAN COORD. ( 0.230 0.537 0.077):( 0.383 0.383-0.077) STEP  0.0080
 
 
  LINE  4 ( 0.25 0.25 0.62: 0.00 0.00 0.00) IN TERMS OF PRIMITIVE LATTICE VECTORS
   67 POINTS - SHRINKING_FACTOR 536
- CARTESIAN COORD. ( 0.378 0.378-0.076):( 0.000 0.000 0.000) STEP  0.0080
+ CARTESIAN COORD. ( 0.383 0.383-0.077):( 0.000 0.000 0.000) STEP  0.0082
 
 
  LINE  5 ( 0.00 0.00 0.00: 0.50 0.50 0.50) IN TERMS OF PRIMITIVE LATTICE VECTORS
   65 POINTS - SHRINKING_FACTOR 520
- CARTESIAN COORD. ( 0.000 0.000 0.000):( 0.302 0.302 0.302) STEP  0.0080
+ CARTESIAN COORD. ( 0.000 0.000 0.000):( 0.307 0.307 0.307) STEP  0.0082
 
 
  LINE  6 ( 0.50 0.50 0.50: 0.62 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   46 POINTS - SHRINKING_FACTOR 368
- CARTESIAN COORD. ( 0.302 0.302 0.302):( 0.151 0.604 0.151) STEP  0.0080
+ CARTESIAN COORD. ( 0.307 0.307 0.307):( 0.153 0.613 0.153) STEP  0.0082
 
 
  LINE  7 ( 0.62 0.25 0.62: 0.50 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   16 POINTS - SHRINKING_FACTOR 128
- CARTESIAN COORD. ( 0.151 0.604 0.151):( 0.227 0.529 0.076) STEP  0.0082
+ CARTESIAN COORD. ( 0.153 0.613 0.153):( 0.230 0.537 0.077) STEP  0.0083
 
 
  LINE  8 ( 0.50 0.25 0.62: 0.50 0.50 0.50) IN TERMS OF PRIMITIVE LATTICE VECTORS
   41 POINTS - SHRINKING_FACTOR 328
- CARTESIAN COORD. ( 0.227 0.529 0.076):( 0.302 0.302 0.302) STEP  0.0080
+ CARTESIAN COORD. ( 0.230 0.537 0.077):( 0.307 0.307 0.307) STEP  0.0082
 
 
  LINE  9 ( 0.50 0.50 0.50: 0.25 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   49 POINTS - SHRINKING_FACTOR 392
- CARTESIAN COORD. ( 0.302 0.302 0.302):( 0.378 0.378-0.076) STEP  0.0080
+ CARTESIAN COORD. ( 0.307 0.307 0.307):( 0.383 0.383-0.077) STEP  0.0081
 
 
  LINE 10 ( 0.25 0.25 0.62: 0.62 0.25 0.62) IN TERMS OF PRIMITIVE LATTICE VECTORS
   49 POINTS - SHRINKING_FACTOR 392
- CARTESIAN COORD. ( 0.378 0.378-0.076):( 0.151 0.604 0.151) STEP  0.0080
+ CARTESIAN COORD. ( 0.383 0.383-0.077):( 0.153 0.613 0.153) STEP  0.0081
 
 
  LINE 11 ( 0.62 0.25 0.62: 0.50 0.00 0.50) IN TERMS OF PRIMITIVE LATTICE VECTORS
   27 POINTS - SHRINKING_FACTOR 216
- CARTESIAN COORD. ( 0.151 0.604 0.151):( 0.000 0.604 0.000) STEP  0.0079
+ CARTESIAN COORD. ( 0.153 0.613 0.153):( 0.000 0.613 0.000) STEP  0.0080
 
 
  3800 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
@@ -266,7 +265,7 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
  1350 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
  -%-0BAND      5    2    5    4    0    4
 
- ENERGY RANGE (A.U.) -370.88970 -   2.76200 EFERMI  -0.17614
+ ENERGY RANGE (A.U.) -370.88538 -   2.80337 EFERMI  -0.17114
      |*-------------------------------------------------------------------------------------------*---------*-*---------****|
      |*                                                                                           *         * *         ****|
      |*                                                                                           *         * *         ****|
@@ -770,12 +769,12 @@ File found: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/GaP_PBE
 
  CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  24
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        1.01 TCPU        0.57
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        2.29 TCPU        1.45
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        1.01 TCPU        0.57
- EEEEEEEEEE TERMINATION  DATE 13 10 2022 TIME 11:52:07.8
-NODE    0 CPU TIME =         0.574
-    TOTAL CPU TIME =        26.471
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        2.29 TCPU        1.45
+ EEEEEEEEEE TERMINATION  DATE 17 10 2022 TIME 16:05:51.6
+NODE    0 CPU TIME =         1.451
+    TOTAL CPU TIME =       186.714
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
@@ -823,15 +822,107 @@ Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
 Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
-end_date Thu Oct 13 11:52:08 BST 2022
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_DENORMAL
+end_date Mon Oct 17 16:05:51 BST 2022
  
 TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
-fort.25            GaP_PBE_bands.f25 305393   Oct 13 11:52
-BAND.DAT           GaP_PBE_bands.BAND333560   Oct 13 11:52
+fort.25            GaP_PBE_bands.f25 305393   Oct 17 16:05
+BAND.DAT           GaP_PBE_bands.BAND333560   Oct 17 16:05
  
 Disk usage:<du -m>
-1	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_
+2	/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_
 </du -m>
 Filesystem                                          1K-blocks          Used     Available Use% Mounted on
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736532882408 1809418508452  49% /mnt/lustre/a2fs-work2
-10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1736532882408 1809418508452  49% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765930414964 1780096352712  50% /mnt/lustre/a2fs-work2
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1765930414964 1780096352712  50% /mnt/lustre/a2fs-work2
+end_date Wed Oct 19 13:13:31 BST 2022
+ 
+TEMPORARY          SAVED (in /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive)
+binary wf (fort.9) is not written on this node
+ 
+Disk usage:<du -m>
+du: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_': No such file or directory
+</du -m>
+df: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_: No such file or directory
+Filesystem                                          1K-blocks          Used     Available Use% Mounted on
+10.253.102.2@o2ib1:10.253.102.3@o2ib1:/cls01097 3582178503216 1751013156736 1794963683040  50% /mnt/lustre/a2fs-work2

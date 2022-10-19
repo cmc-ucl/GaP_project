@@ -1,0 +1,131 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"epcc-job-env"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "epcc-job-env"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+
+Warning: You have enabled access to software packages installed
+by external parties on ARCHER2 or those that are not fully-supported.
+The ARCHER2 CSE service does not test these packages. The service desk
+will make reasonable efforts to assist with questions on the use of
+these packages but some issues may not be able to be resolved by the
+service and they may direct you to seek help from external parties.
+
+
+Output exists: GaP_HSE06_freq.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_freq_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_freq_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_freq_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_freq_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_freq_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_HSE06_cpks.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_cpks_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_cpks_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_cpks_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_cpks_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_cpks_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_HSE06_elapiezo.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_elapiezo_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_elapiezo_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_elapiezo_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_elapiezo_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_elapiezo_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_HSE06_bands.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_bands_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_HSE06_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_HSE06_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_freq.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_freq_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_freq_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_freq_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_freq_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_freq_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_cpks.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_cpks_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_cpks_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_cpks_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_cpks_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_cpks_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_elapiezo.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_elapiezo_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_elapiezo_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_elapiezo_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_elapiezo_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_elapiezo_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_bands.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_bands_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
+Output exists: GaP_PBE_doss.out
+Job terminated without calculation.
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 14: cd: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_doss_: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 111: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm: line 119: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+chmod: cannot access '/mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_doss_/checkfile0': No such file or directory
+nid002151
+<checkfile0>
+cat: /mnt/lustre/a2fs-work2/work/e05/e05/bcamino/aurora/primitive/tmp_GaP_PBE_doss_/checkfile0: No such file or directory
+</checkfile0>
+mv: cannot stat 'slurm-.out': No such file or directory
